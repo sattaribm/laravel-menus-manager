@@ -1,5 +1,5 @@
 {
-    "name": "hexadog/laravel-menus-manager",
+    "name": "sattaribm/laravel-menus-manager",
     "description": "Dynamic Menus Management package for your Laravel application",
     "license": "MIT",
     "support": {
@@ -25,18 +25,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Hexadog\\MenusManager\\": "src"
+            "sattaribm\\MenusManager\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Hexadog\\MenusManager\\Tests\\": "tests"
+            "sattaribm\\MenusManager\\Tests\\": "tests"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Hexadog\\MenusManager\\Providers\\PackageServiceProvider"
+                "sattaribm\\MenusManager\\Providers\\PackageServiceProvider"
             ],
             "dont-discover": []
         }
