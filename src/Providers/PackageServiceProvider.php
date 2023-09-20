@@ -1,11 +1,11 @@
 <?php
 
-namespace Hexadog\MenusManager\Providers;
+namespace sattaribm\MenusManager\Providers;
 
-use Hexadog\MenusManager\Components;
-use Hexadog\MenusManager\Facades\Menus as MenusFacade;
-use Hexadog\MenusManager\Facades\MenusManager as MenusManagerFacade;
-use Hexadog\MenusManager\MenusManager;
+use sattaribm\MenusManager\Components;
+use sattaribm\MenusManager\Facades\Menus as MenusFacade;
+use sattaribm\MenusManager\Facades\MenusManager as MenusManagerFacade;
+use sattaribm\MenusManager\MenusManager;
 use Illuminate\Foundation\AliasLoader;
 use Illuminate\Routing\Router;
 use Illuminate\Support\ServiceProvider;
