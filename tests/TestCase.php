@@ -1,8 +1,8 @@
 <?php
 
-namespace Hexadog\MenusManager\Tests;
+namespace sattaribm\MenusManager\Tests;
 
-use Hexadog\MenusManager\Providers\PackageServiceProvider;
+use sattaribm\MenusManager\Providers\PackageServiceProvider;
 use Orchestra\Testbench\TestCase as OrchestraTestCase;
 
 abstract class TestCase extends OrchestraTestCase
