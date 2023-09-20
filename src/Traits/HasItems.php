@@ -1,9 +1,9 @@
 <?php
 
-namespace Hexadog\MenusManager\Traits;
+namespace sattaribm\MenusManager\Traits;
 
 use Closure;
-use Hexadog\MenusManager\Item;
+use sattaribm\MenusManager\Item;
 use Illuminate\Support\Collection;
 
 trait HasItems
