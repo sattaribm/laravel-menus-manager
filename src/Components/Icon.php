@@ -1,8 +1,8 @@
 <?php
 
-namespace Hexadog\MenusManager\Components;
+namespace sattaribm\MenusManager\Components;
 
-use Hexadog\MenusManager\Item;
+use sattaribm\MenusManager\Item;
 use Illuminate\View\Component;
 
 class Icon extends Component
