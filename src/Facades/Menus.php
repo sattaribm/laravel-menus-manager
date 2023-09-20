@@ -1,8 +1,8 @@
 <?php
 
-namespace Hexadog\MenusManager\Facades;
+namespace sattaribm\MenusManager\Facades;
 
-use Hexadog\MenusManager\MenusManager;
+use sattaribm\MenusManager\MenusManager;
 use Illuminate\Support\Facades\Facade;
 
 class Menus extends Facade
