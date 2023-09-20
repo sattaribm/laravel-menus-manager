@@ -2,7 +2,7 @@
 
 namespace sattaribm\MenusManager\Components;
 
-use Hexadog\MenusManager\Item;
+use sattaribm\MenusManager\Item;
 use Illuminate\View\Component;
 
 class Header extends Component
