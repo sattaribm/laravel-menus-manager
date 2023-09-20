@@ -1,6 +1,6 @@
 <?php
 
-namespace Hexadog\MenusManager;
+namespace sattaribm\MenusManager;
 
 use Illuminate\Support\Collection;
 
