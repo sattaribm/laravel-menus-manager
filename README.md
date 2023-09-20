@@ -25,7 +25,7 @@ This package requires PHP 7.3 and Laravel 7.0 or higher.
 
 To get started, install Menus Manager using Composer:
 ```shell
-composer require hexadog/laravel-menus-manager
+composer require sattaribm/laravel-menus-manager
 ```
 
 The package will automatically register its service provider.
