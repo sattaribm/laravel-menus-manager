@@ -1,9 +1,9 @@
 <?php
 
-namespace Hexadog\MenusManager;
+namespace sattaribm\MenusManager;
 
 use Closure;
-use Hexadog\MenusManager\Traits\HasItems;
+use sattaribm\MenusManager\Traits\HasItems;
 use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Support\Arr;
 use Illuminate\Support\Collection;
