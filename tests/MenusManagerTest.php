@@ -1,10 +1,10 @@
 <?php
 
-namespace Hexadog\MenusManager\Tests;
+namespace sattaribm\MenusManager\Tests;
 
-use Hexadog\MenusManager\Facades\Menus;
-use Hexadog\MenusManager\Item;
-use Hexadog\MenusManager\Menu;
+use sattaribm\MenusManager\Facades\Menus;
+use sattaribm\MenusManager\Item;
+use sattaribm\MenusManager\Menu;
 use Illuminate\Support\Arr;
 
 class MenusManagerTest extends TestCase
@@ -12,7 +12,7 @@ class MenusManagerTest extends TestCase
     /**
      * Main menu instance
      *
-     * @var \Hexadog\MenusManager\Menu
+     * @var \sattaribm\MenusManager\Menu
      */
     protected $menu;
 
