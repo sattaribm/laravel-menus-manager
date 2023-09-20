@@ -1,8 +1,8 @@
 <?php
 
-namespace Hexadog\MenusManager\Components;
+namespace sattaribm\MenusManager\Components;
 
-use Hexadog\MenusManager\Facades\Menus;
+use sattaribm\MenusManager\Facades\Menus;
 use Illuminate\Support\Collection;
 use Illuminate\View\Component;
 
