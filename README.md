@@ -17,7 +17,7 @@
 
 <!-- omit in toc -->
 ## Introduction
-<code>hexadog/laravel-menus-manager</code> is a Laravel package to ease dynamic menus management.
+<code>sattaribm/laravel-menus-manager</code> is a Laravel package to ease dynamic menus management.
 
 <!-- omit in toc -->
 ## Installation
