@@ -208,9 +208,23 @@ class Item implements Arrayable
             }
         }
 
-        // Custom set active path
+      // Custom set active path
         if ($path = $this->getActiveWhen()) {
-            return Request::is($path);
+            return Request::is(
+				$path,
+				$path . '/*'
+			);
+        }
+		
+		// Custom set active path
+        if ($path = $this->getActiveBy()) {
+			$basePath = ltrim(str_replace(url('/'), '', $this->getUrl()), '/');
+            return Request::is(
+				$path,
+				$path . '/*',
+				$basePath,
+				$basePath . '/*'
+			);
         }
 
         $path = ltrim(str_replace(url('/'), '', $this->getUrl()), '/');
@@ -246,6 +260,24 @@ class Item implements Arrayable
         return $this->activeWhen;
     }
 
+	
+	public function isActiveBy($path)
+    {
+        // Remove unwanted chars
+        $path = ltrim($path, '/');
+        $path = rtrim($path, '/');
+        $path = rtrim($path, '?');
+
+        $this->activeBy = $path;
+
+        return $this;
+    }
+    
+    public function getActiveBy()
+    {
+        return $this->activeBy;
+    }  
+    
     /**
      * Check if the current item is divider.
      */
