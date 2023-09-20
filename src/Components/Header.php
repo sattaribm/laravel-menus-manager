@@ -1,6 +1,6 @@
 <?php
 
-namespace Hexadog\MenusManager\Components;
+namespace sattaribm\MenusManager\Components;
 
 use Hexadog\MenusManager\Item;
 use Illuminate\View\Component;
