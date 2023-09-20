@@ -1,8 +1,8 @@
 <?php
 
-namespace Hexadog\MenusManager;
+namespace sattaribm\MenusManager;
 
-use Hexadog\MenusManager\Traits\HasItems;
+use sattaribm\MenusManager\Traits\HasItems;
 use Illuminate\Contracts\Support\Arrayable;
 
 class Menu implements Arrayable
